@@ -1,0 +1,79 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url(https://t4.ftcdn.net/jpg/08/94/34/01/360_F_894340194_gzKHb2EyMrJByZxa6989VIx7MWwRVTJs.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.container {
+    background-color: white;
+    width: 450px;
+    height: 350px;
+    border-radius: 18px;
+    padding: 18px;
+    box-shadow: 12px 12px rgba(4, 4, 14, 0.1);
+}
+
+h1 {
+    color: rgb(19, 183, 238);
+    text-align: center;
+}
+
+span {
+    color: rgb(19, 183, 238);
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+input {
+    height: 30px;
+    border-radius: 5px;
+    width: 90%;
+    padding: 8px;
+    margin-top: 7px;
+    margin-bottom: 5px;
+    border: 2px solid #ccc;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+input:hover {
+    border-color: rgb(19, 183, 238); /* Border color on hover */
+}
+
+input:focus {
+    outline: none; /* Removes default outline */
+    border-color: rgb(19, 183, 238); /* Border color when focused */
+    box-shadow: 0 0 8px rgba(19, 183, 238, 0.6); /* Adds a glow effect */
+}
+
+button {
+    border: none;
+    background-color: rgb(19, 183, 238);
+    color: white;
+    height: 40px;
+    width: 96%;
+    margin: 15px auto;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: large;
+}
+
+button:hover {
+    color: rgb(19, 183, 238);
+    border: 3px solid rgb(19, 183, 238);
+    background-color: white;
+    font-size: large;
+}
+
+p {
+    text-align: center;
+}
+
+.hidden {
+    display: none;
+}
