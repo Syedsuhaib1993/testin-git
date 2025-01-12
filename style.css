@@ -1,3 +1,4 @@
+
 body {
     display: flex;
     justify-content: center;
@@ -76,4 +77,8 @@ p {
 
 .hidden {
     display: none;
+
+li {
+list-style: none;
+
 }
