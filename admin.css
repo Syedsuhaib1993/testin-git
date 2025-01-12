@@ -1,0 +1,46 @@
+
+body {
+    height: 100vh;
+    background-image: url(https://t4.ftcdn.net/jpg/08/94/34/01/360_F_894340194_gzKHb2EyMrJByZxa6989VIx7MWwRVTJs.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.parent{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+h4 {
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 1.2rem;
+    text-align: center;
+}
+ul{
+    list-style: none;
+    text-align: center;
+
+}
+
+
+button {
+    border: none;
+    background-color: rgb(19, 183, 238);
+    color: white;
+    height: 40px;
+    width: 96%;
+    margin: 15px auto;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: large;
+}
+
+button:hover {
+    color: rgb(19, 183, 238);
+    border: 3px solid rgb(19, 183, 238);
+    background-color: white;
+    font-size: large;
+}
+
