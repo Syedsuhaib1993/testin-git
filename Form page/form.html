@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Doctor Appointment Form</title>
+    <link rel="website icon" type="pnf" href="../doc.png" />
+    <link rel="stylesheet" href="form.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=stethoscope" />
+  </head>
+  <body>
+    <div class="container">
+      <h2><img src="../stethoscope.png" alt="">Doctor Appointment Form</h2>
+      <form>
+        <div id="child1">
+          <label for="name">Full Name:</label>
+          <input type="text" id="name" name="name" required /><br />
+        </div>
+
+        <div id="child2">
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required />
+
+          <label for="phone">Phone Number:</label>
+          <input type="tel" id="phone" name="phone" required />
+        </div>
+        <div id="child3">
+        <div>
+          <label for="first-time">Is this your first visit:</label>
+          Yes<input
+            type="radio"
+            name="first-time"
+            id="visityes"
+            value="yes"
+            required
+          />
+          No<input
+            type="radio"
+            name="first-time"
+            id="visitno"
+            value="no"
+            required
+          />
+        </div>
+        <div>
+          <label id="gender" for="gender">Gender:</label>
+          Male<input
+            type="radio"
+            id="male"
+            name="gender"
+            value="Male"
+            required
+          />
+          Female<input
+            type="radio"
+            id="female"
+            name="gender"
+            value="Female"
+            required
+          />
+        </div>
+          
+        </div>
+        <div id="child4">
+          <div>
+            <label for="date">Appointment Date:</label>
+          <input type="date" id="date" name="date" required />
+          </div>
+          <div>
+            <label for="time">Appointment Time:</label>
+          <input type="time" id="time" name="time" required />
+          </div>
+        </div>
+        <div id="child5">
+          <div>
+            <label for="doctor">Select doctor</label>
+          <select id="doctor" name="doctor" required>
+            <option value="">Select a Doctor</option>
+            <option>Dr. Haseeb Shiekh</option>
+            <option>Dr. Ahmed Ali</option>
+            <option>Dr. Talha Hayat</option>
+            <option>Dr. Syed Suhaib</option>
+            <option>Dr. Umair</option>
+            <option>Any</option>
+          </select>
+          </div>
+          <div>
+            <label for="Symptoms/Diseases">Symptoms/Diseases</label>
+          <select id="Symptoms/Diseases" name="Symptoms/Diseases" required>
+            <option>Choose an option</option>
+            <option>Check-up</option>
+            <option>Flu Symptoms</option>
+            <option>Injury</option>
+            <option>Consultation</option>
+            <option>Allergies</option>
+            <option>Skin rashes</option>
+            <option>Diarrhea and vomiting</option>
+            <option>Chickenpox</option>
+            <option>Other</option>
+          </select>
+          </div>
+        </div>
+        <button type="submit" onclick="submitForm(event)">
+          Book Appointment
+        </button>
+      </form>
+    </div>
+  </body>
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+  <script src="form.js"></script>
+</html>
