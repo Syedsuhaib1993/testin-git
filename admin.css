@@ -70,9 +70,10 @@ img{
     height: 40px;
 }
 img:hover {
-    
+    cursor: pointer;
     
 }
+
 
 /* button {
     border: none;
