@@ -23,6 +23,12 @@ h1 {
     color: rgb(19, 183, 238);
     text-align: center;
 }
+img{
+    width: 40px;
+    height: 40px;
+}
+img:hover {
+    cursor: pointer;}
 
 span {
     color: rgb(19, 183, 238);
