@@ -1,4 +1,8 @@
-
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: 0px;
+}
 body {
     height: 100vh;
     background-image: url(https://t4.ftcdn.net/jpg/08/94/34/01/360_F_894340194_gzKHb2EyMrJByZxa6989VIx7MWwRVTJs.jpg);
@@ -7,25 +11,70 @@ body {
     background-repeat: no-repeat;
 }
 .parent{
+    opacity: calc(90%);
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
+    border: 2px solid  rgb(19, 183, 238);;
+    border-radius: 20px;
+    background-color: white;
+    width: 100wh;
+    padding: 10px;
+    margin-top: 20px;
+
+}
+h1{
+    color:  rgb(19, 183, 238);
+    cursor: pointer;
+    font-weight: bold;
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+h1:hover {
+    color: black;
+}
+
+h4:hover {
+    color: black;
+}
+
+li:hover {
+    color: black;
+    cursor: pointer;
 }
 h4 {
-    color: white;
+    color:  rgb(19, 183, 238);
     cursor: pointer;
     font-weight: bold;
     font-size: 1.2rem;
     text-align: center;
+    text-decoration: underline;
+    margin-bottom: 20px;
 }
 ul{
-    list-style: none;
-    text-align: center;
+    color:  rgb(19, 183, 238);
+    list-style-type: none; 
+    text-align: center; 
+    /* border: 2px solid black; */
 
 }
+li{
+    /* border: 2px solid black; */
+    text-align: center;
+    place-content: center;
+    margin-bottom: 10px;
+}
+img{
+    width: 40px;
+    height: 40px;
+}
+img:hover {
+    
+    
+}
 
-
-button {
+/* button {
     border: none;
     background-color: rgb(19, 183, 238);
     color: white;
@@ -43,4 +92,4 @@ button:hover {
     background-color: white;
     font-size: large;
 }
-
+ */
