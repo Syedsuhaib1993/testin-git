@@ -1,0 +1,219 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="home.css">
+</head>
+<body>
+    <div class="container">
+
+        <div class="denticare">
+            <h3 id="hospital">HOSPITAL <span>Care</span></h3>
+            <span>A team of dentists working to ensure you receive the best treatment.</span><br>
+            <img class="img" src="https://cdn3.iconfinder.com/data/icons/mix-popular-outline/96/pop_icon_outline-28-512.png" alt="img"> <span>xxx-xxxx-xxxx</span> <br>
+            <img class="img" src="https://icon-library.com/images/apple-email-icon/apple-email-icon-24.jpg" alt=""> <span>emergencies@hospital.com</span> <br>
+            <img class="img" src="https://thumb.ac-illust.com/f4/f4d2ac07261436d1bc4c655b47801b20_t.jpeg" alt=""> <span>hospital.com</span>
+
+        </div>
+
+
+        <div class="about">
+            <h3>About</h3>
+            <p>Our Dental Team</p>
+            <p>Pricing & Pricelist</p>
+            <p>Solutions</p>
+            <p>Dental Services</p>
+            <p>Clients</p>
+        </div>
+
+
+        <div class="our-awards">
+            <h3>Our Awards</h3>
+            <img src="https://cdn.pharmnews.com/news/thumbnail/202304/222144_94146_1521_v150.jpg" alt="">
+        </div>
+
+
+        <div class="Social-Networks">
+            <h3>Social-Networks</h3>
+            <p>Visit DentiCare on these social links and connect with us. Make sure to follow our accounts for regular updates.</p>
+        </div>
+
+
+    </div>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</html> -->
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <style>
+        body {
+            padding: 0;
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        .container {
+            padding-top: 100px;
+            max-width: 1300px; /* Increase container width */
+            margin-left: auto; /* Center align */
+            margin-right: auto; /* Center align */
+        }
+
+        .denticare,
+        .about,
+        .our-awards,
+        .Social-Networks {
+            background-color: #cccccc57;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 8px;
+        }
+
+        #hospital span {
+            color: red;
+        }
+
+        #hospital {
+            font-weight: bold;
+            color: blue;
+        }
+
+        .img {
+            width: 30px;
+            vertical-align: middle;
+            margin-right: 10px;
+        }
+
+        .about h3,
+        .our-awards h3,
+        .Social-Networks h3 {
+            color: blue;
+            font-weight: bold;
+        }
+
+        .about p,
+        .our-awards p,
+        .Social-Networks p {
+            font-size: 1rem;
+        }
+
+        .our-awards img {
+            width: 100%; 
+            height: auto;
+            max-width: 400px; 
+        }
+
+        .about p:hover {
+            color: #696464cc;
+        }
+
+        /* Media Queries for Responsiveness */
+        @media (max-width: 768px) {
+            .denticare,
+            .about,
+            .our-awards,
+            .Social-Networks {
+                width: 100%;
+                text-align: center;
+            }
+
+            .denticare {
+                margin-bottom: 20px;
+            }
+
+            .about,
+            .our-awards,
+            .Social-Networks {
+                margin-bottom: 10px;
+            }
+
+            .img {
+                width: 20px;
+            }
+
+            #hospital {
+                font-size: 1.2rem;
+            }
+
+            .about h3,
+            .our-awards h3,
+            .Social-Networks h3 {
+                font-size: 1.5rem;
+            }
+        }
+
+        @media (max-width: 480px) {
+            #hospital {
+                font-size: 1rem;
+            }
+
+            .img {
+                width: 25px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="row">
+            <!-- Denticare Section -->
+            <div class="col-md-3 denticare">
+                <h3 id="hospital">HOSPITAL <span>Care</span></h3>
+                <span>A team of dentists working to ensure you receive the best treatment.</span><br>
+                <img class="img"
+                    src="https://cdn3.iconfinder.com/data/icons/mix-popular-outline/96/pop_icon_outline-28-512.png"
+                    alt="Phone"> <span>xxx-xxxx-xxxx</span> <br>
+                <img class="img"
+                    src="https://icon-library.com/images/apple-email-icon/apple-email-icon-24.jpg" alt="Email"> <span>emergencies@hospital.com</span> <br>
+                <img class="img"
+                    src="https://thumb.ac-illust.com/f4/f4d2ac07261436d1bc4c655b47801b20_t.jpeg" alt="Website"> <span>hospital.com</span>
+            </div>
+
+            <!-- About Section -->
+            <div class="col-md-3 about">
+                <h3>About</h3>
+                <p>Our Dental Team</p>
+                <p>Pricing & Pricelist</p>
+                <p>Solutions</p>
+                <p>Dental Services</p>
+                <p>Clients</p>
+            </div>
+
+            <!-- Our Awards Section -->
+            <div class="col-md-3 our-awards">
+                <h3>Our Awards</h3>
+                <img src="https://cdn.pharmnews.com/news/thumbnail/202304/222144_94146_1521_v150.jpg" alt="Award Image">
+            </div>
+
+            <!-- Social Networks Section -->
+            <div class="col-md-3 Social-Networks">
+                <h3>Social-Networks</h3>
+                <p>Visit DentiCare on these social links and connect with us. Make sure to follow our accounts for
+                    regular updates.</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+
+</html>
+
