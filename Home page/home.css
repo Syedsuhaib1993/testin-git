@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+ 
+body{
+   background-image: url(https://t4.ftcdn.net/jpg/08/94/34/01/360_F_894340194_gzKHb2EyMrJByZxa6989VIx7MWwRVTJs.jpg);
+   width: 100%;
+   height: 100%;
+   background-position: center;
+   background-size: cover;
+   background-repeat: no-repeat;
+} 
+ 
+ nav{
+    padding: 10px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background:transparent;
+    position: relative;
+    height: 70px;
+ }
+ 
+ 
+ nav ul{
+    display: flex;
+    /* gap: 30px; */
+    align-items: center;
+ }
+ 
+ nav ul li{
+    list-style-type: none;
+ }
+ 
+ nav ul li a{
+    text-decoration: none;
+    color:white;
+    font-weight: bold;
+    font-size: 1.5rem;
+   
+ }
+ nav ul li a:hover{
+    /* color: #0e54ae;
+    animation-name: fadeInDownBig;*/
+    border-radius: 10px;
+    background-color: white;
+    color:rgb(19, 183, 238);
+    outline: none; /* Removes default outline */
+    border-color: rgb(19, 183, 238); /* Border color when focused */
+    box-shadow: 0 0 8px rgba(19, 183, 238, 0.6); /* Adds a glow effect */
+ }
+ 
+ .menu-icon{
+    display: none;
+ }
+ 
+ .menu-icon i{
+    color: #fff;
+    font-size: 30px;
+ }
+ 
+ @media (max-width:600px) {
+    nav ul{
+        position: absolute;
+        top: 70px;
+        left: 0;
+        right: 0;
+        flex-direction: column;
+        text-align: center;
+        /* background: #004274; */
+        background-color: rgb(19, 183, 238);
+        color: white;
+        gap: 0;
+        overflow: hidden;
+    }
+    nav ul li{
+        padding: 20px;
+        padding-top: 0;
+    }
+    .menu-icon{
+        display: block;
+    }
+    #menuList{
+        transition: all 0.5s;
+    }
+    .par {
+      margin-top: 300px;
+      padding: 0px;
+      gap: 0;
+      /* display: none; */
+    }
+    p{
+      margin: 0%;
+    }
+    #btn1{
+      height: 700px;
+      width: 100%;
+      font-size: 10px;
+    }
+    #btn2{
+      height: 200px;
+      width: 100%;
+      font-size: 10px;
+    }
+ }
+ 
+ .btn{
+
+    background-color: rgb(19, 183, 238);
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: large;
+ }
+ .btn:hover {
+   outline: none; /* Removes default outline */
+    border-color: rgb(19, 183, 238); /* Border color when focused */
+    box-shadow: 0 0 8px rgba(19, 183, 238, 0.6); /* Adds a glow effect */
+ }
+ #btn1{
+   height: 40px;
+    width: 10%;
+    margin: 15px auto;
+ }
+ #btn2{
+   height: 40px;
+    width: 20%;
+    margin: 15px auto;
+ }

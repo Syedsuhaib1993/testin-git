@@ -45,7 +45,11 @@ async function submitForm(event) {
   .from('Doctor-App')
   .insert({ fname:fname , email:email , phone:phone , visit:visityes, visit:visitno, gender:male , gender:female , date:date , time:time, doctor:doctor , Symptoms:symptoms})
 
-
+  Swal.fire({
+    title: "Your Appointment has been confirmed",
+    icon: "success",
+    draggable: true
+  });
   Fname.value = ""
   Email.value = ""
   Phone.value = ""
