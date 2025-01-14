@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img{
+    height: 300px;
+}
+.name{
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-left: 170px;
+}
+.name h4{
+    color: blue;
+} 
+.Qualification{
+    position: absolute;
+    top: 0;
+    left: 0;
+    top: 130px;
+}
+.Spacification{
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-left: 400px;
+    top: 140px;
+}
+.Qualification h1{
+    color: navy;
+}
+.Spacification h1{
+    color: navy;
+}
+
+
+
+.name-two{
+    position: absolute;
+    top: 300px;
+    left: 300px;
+    margin-left: -130px;
+}
+.name-two h4{
+    color: blue;
+}
+.Qualification-two{
+    position: absolute;
+    top: 430px;
+    left: 00px;
+    /* top: 130px; */
+} 
+.Qualification-two h1{
+    color: navy;
+}
+.Spacification-two{
+    position: absolute;
+    top: 440px;
+    left: 460px;
+}
+.Spacification-two h1{
+    color: navy;
+}
+
+
+
+
+.name-three{
+    position: absolute;
+    top: 610px;
+    /* left: 300px; */
+    margin-left: 170px;
+}
+.name-three h4{
+    color: blue;
+}
+.Qualification-three{
+    position: absolute;
+    top: 735px;
+    /* left: 00px; */
+    /* top: 130px; */
+}
+.Qualification-three h1{
+    color: navy;
+}
+.Spacification-three{
+    position: absolute;
+    top: 740px;
+    left: 455px;
+}
+.Spacification-three h1{
+    color: navy;
+}
+
+
+
+.name-four{
+    position: absolute;
+    top: 910px;
+    margin-left: 165px;
+}
+.name-four h4{
+    color: blue;
+}
+.Qualification-four{
+    position: absolute;
+    top: 1040px;
+}
+.Qualification-four h1{
+    color: navy;
+}
+.Spacification-four{
+    position: absolute;
+    top: 1050px;
+    margin-left: 450px;
+}
+.Spacification-four h1{
+    color: navy;
+}
+
+
+.name-five{
+    position: absolute;
+    top: 1220px;
+    margin-left: 170px;
+}
+.name-five h4{
+    color: blue;
+}
+.Qualification-five{
+    position: absolute;
+    top: 1345px;
+}
+.Qualification-five h1{
+    color: navy;
+}
+.Spacification-five{
+    position: absolute;
+    top: 1355px;
+    margin-left: 450px;
+}
+.Spacification-five h1{
+    color: navy;
+}
