@@ -1,6 +1,7 @@
 // Initialize Supabase Client
-const supabaseUrl = 'https://saqsepgxtvpgiigybsvd.supabase.co';
-const supabaseKey = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InNhcXNlcGd4dHZwZ2lpZ3lic3ZkIiwicm9sZSI6ImFub24iLCJpYXQiOjE3MzYwMTkzMzAsImV4cCI6MjA1MTU5NTMzMH0.lc9v_HyA9XkC_JoHNjpa4kIqts2hrkq_L6zJXfYNyQo";
+const supabaseUrl = "https://zqieisofmptcaitkfqkb.supabase.co";
+const supabaseKey =
+  "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InpxaWVpc29mbXB0Y2FpdGtmcWtiIiwicm9sZSI6ImFub24iLCJpYXQiOjE3MzU3OTYzMzIsImV4cCI6MjA1MTM3MjMzMn0.2VP3hRMPj0xtHJtJCSfAy2Um2I_hPKL42d5xl3HNQyQ";
 const supabaseClient = supabase.createClient(supabaseUrl, supabaseKey);
 
 // Form Elements
@@ -31,7 +32,12 @@ signupBtn.addEventListener('click', async () => {
     const password = signupPassword.value;
 
     if (!email || !password) {
-        alert("Please fill in both email and password");
+        Swal.fire({
+            icon: "error",
+            title: "Oops...",
+            text: "Please fill in both email and password!",
+          });
+        // alert("Please fill in both email and password");
         return;
     }
 
@@ -40,9 +46,13 @@ signupBtn.addEventListener('click', async () => {
     if (error) {
         alert(`Error: ${error.message}`);
     } else {
-        alert('Signup successful');
-        window.location.href = 'home.html';
+        // alert('Signup successful');
+        Swal.fire("Signup successful!");
+        loginForm.classList.add("hidden");
+        signupForm.classList.remove("hidden");
         console.log(data);
+        signupEmail.value= ""
+        signupPassword.value= ""
     }
 });
 
@@ -57,7 +67,12 @@ loginBtn.addEventListener("click", async () => {
     const password = loginPassword.value;
 
     if (!email || !password) {
-        alert("Please fill in both email and password");
+        Swal.fire({
+            icon: "error",
+            title: "Oops...",
+            text: "Please fill in both email and password!",
+          });
+        // alert("Please fill in both email and password");
         return;
     }
 
@@ -67,7 +82,9 @@ loginBtn.addEventListener("click", async () => {
         alert(`Login Error: ${error.message}`);
         console.log(error);
     } else {
-        alert('Login successful');
-        window.location.href = 'home.html';
+        Swal.fire("Login successful!");        
+        // alert('Login successful');
+        window.location.href = '../Admin page/admin.html';
     }
-});
+}
+);
