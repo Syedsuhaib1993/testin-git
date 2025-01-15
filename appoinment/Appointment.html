@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+<div class="parsent">
+ <div class="main">
+    <!-- /////text// -->
+       <div class="textAppoi">
+        <p class="text-[#4d3589] font-bold text-center">
+            APPOINTMENT BOOKING
+        </p>
+        <h1 class="max-[763px]:text-[2rem] text-[3rem] text-center">Schedule Your <span class="font-bold">Doctor</span> Appointment</h1>
+    </div>
+   <!-- ////Appointment/// -->
+<div class="max-[1136px]:h-[250vh] form w-[80%] h-[150vh] border-2 border-black rounded-[20px] mx-auto">
+
+    <div class="max-[1288px]:flex max-[1288px]:flex-col  max-[1288px]:gap-0 max-[1288px]:pb-5  selectDr flex items-center justify-center gap-5 bg-[#4d3589] w-[100%] h-[200px] rounded-t-[20px]">
+    
+    <div class="specail ">
+        <p class="text-[1.2rem] text-white font-bold p-[10px]">Choose a Specialty:</p>
+    <select class="max-[623px]:w-[300px] max-[376px]:w-[200px]  w-[500px] h-[50px] p-[10px]  rounded-full outline-none  " name="specialty" id="">
+        
+        <option class="font-bold" selected value="specialty">Choose a Specialty</option>
+        <option class="font-bold"  value="specialty">AUDIOLOGIST</option>
+        <option class="font-bold"  value="specialty">CARDIOLOGIST</option>
+        <option class="font-bold"  value="specialty">CHEST PHYSICAN</option>
+        <option class="font-bold"  value="specialty">DIABETOLOGIST</option>
+        <option class="font-bold" value="specialty">EYE SURGEON</option>
+        <option class="font-bold"  value="specialty">GENERAL PHYSICAN</option>
+      </select>
+    </div>
+
+    <div class="specail ">
+        <p class="text-[1.2rem] text-white font-bold p-[10px]">Choose a Doctor:</p>
+    <select class="max-[623px]:w-[300px] max-[376px]:w-[200px] w-[500px] h-[50px] p-[10px]  rounded-full outline-none  "  name="specialty" id="">
+        
+        <option class="font-bold" selected value="specialty">Choose a Doctor:</option>
+        <option class="font-bold" value="specialty">Dr Mustafa Jabir</option>
+        <option class="font-bold"  value="specialty">Dr Syed Suhaib</option>
+        <option class="font-bold"  value="specialty">Dr Ahmed Ali</option>
+        <option class="font-bold"  value="specialty">Dr Ayesha khan</option>
+        <option class="font-bold"  value="specialty">Dr Malaika Khushi</option>
+        <option class="font-bold"  value="specialty">Dr Asma Chandio</option>
+        <option class="font-bold"  value="specialty">Dr Tahla Hayat</option>
+
+
+
+
+
+
+      </select>
+    </div>
+
+</div> 
+
+
+<!-- ////////inputs flied////// -->
+<div class="inputs mt-8">
+    <h1 class=" max-[582px]:text-[1.5rem] text-center text-black font-bold text-[2rem]">Enter Patient Details</h1>
+</div>
+<!-- ///1/// -->
+<div class=" max-[1136px]:flex max-[1136px]:flex-col max-[1136px]: items-center  flieds flex justify-around mt-5">
+    <div class="nameandfathername ">
+    <p class=" font-bold text-[#444F6F]">Patient Name</p>
+    <input class="max-[582px]:w-[250px] max-[582px]:h-[35px] border-[1px] border-gray-400  w-[450px] h-[40px] p-[10px] rounded-[50px] outline-none" type="text" placeholder="Patient Name">
+</div>
+<div class="nameandfathername">
+    <p class=" font-bold text-[#444F6F]">Father Name / Husband Name</p>
+    <input class="max-[582px]:w-[250px] max-[582px]:h-[35px] border-[1px] border-gray-400  w-[450px] h-[40px] p-[10px] rounded-[50px] outline-none" type="text" placeholder="Father Name / Husband Name">
+</div>
+
+
+</div>
+
+<!-- ///2/// -->
+<div class="max-[1136px]:flex max-[1136px]:flex-col max-[1136px]: items-center flieds flex justify-around mt-5">
+    <div class="nameandfathername ">
+    <p class=" font-bold text-[#444F6F]">Patient Age</p>
+    <input class="max-[582px]:w-[250px] max-[582px]:h-[35px] text-[#444F6F] border-[1px] border-gray-400  w-[450px] h-[40px] p-[10px] rounded-[50px] outline-none" type="date" placeholder="Patient Name">
+</div>
+<div class="nameandfathername ">
+    <p class="font-bold text-[#444F6F]">Patient Gender</p>
+<select class="max-[582px]:w-[250px] max-[582px]:h-[35px] border-[1px] text-[#444F6F]  border-gray-400  w-[450px] h-[40px] p-[10px] rounded-[50px] outline-none" name="specialty" id="">
+    
+    <option class="" selected value="specialty">Patient Gender</option>
+    <option   value="specialty">Male</option>
+    <option   value="specialty">Female</option>
+  
+  </select>
+</div>
+
+
+</div>
+<!-- ////3//// -->
+<div class="max-[1136px]:flex max-[1136px]:flex-col max-[1136px]: items-center flieds flex justify-around mt-5">
+    <div class="nameandfathername ">
+    <p class=" font-bold text-[#444F6F]">Email Address</p>
+    <input class="max-[582px]:w-[250px] max-[582px]:h-[35px] border-[1px] border-gray-400  w-[450px] h-[40px] p-[10px] rounded-[50px] outline-none" type="email" placeholder="Email Address">
+</div>
+<div class="nameandfathername">
+    <p class=" font-bold text-[#444F6F]">Phone Number</p>
+    <input class="max-[582px]:w-[250px] max-[582px]:h-[35px] border-[1px] border-gray-400  w-[450px] h-[40px] p-[10px] rounded-[50px] outline-none" type="number" placeholder="Phone Number">
+</div>
+
+
+</div>
+<!-- ////4/// -->
+<div class="max-[1136px]:flex max-[1136px]:flex-col max-[1136px]: items-center flieds flex justify-around mt-5">
+    <div class="nameandfathername ">
+    <p class=" font-bold text-[#444F6F]">Address</p>
+    <input class="max-[582px]:w-[250px] max-[582px]:h-[35px] border-[1px] border-gray-400  w-[450px] h-[40px] p-[10px] rounded-[50px] outline-none" type="text" placeholder="Address">
+</div>
+<div class="nameandfathername">
+    <p class=" font-bold text-[#444F6F]">Date of Appointment</p>
+    <input class="max-[582px]:w-[250px] max-[582px]:h-[35px] text-[#444F6F] border-[1px] border-gray-400  w-[450px] h-[40px] p-[10px] rounded-[50px] outline-none" type="date" placeholder="Patient Name">
+</div>
+
+
+</div>
+
+<!-- /////5///// -->
+<div class="max-[1136px]:flex max-[1136px]:flex-col max-[1136px]: items-center flieds flex justify-around mt-5">
+    <div class="nameandfathername ">
+    <p class=" font-bold text-[#444F6F]">Comments </p>  
+    <input class= "max-[582px]:w-[250px] max-[582px]:h-[35px] text-[#444F6F] border-[1px] border-gray-400  w-[450px] h-[40px] p-[10px] rounded-[50px] outline-none" type="text" placeholder="Comments">
+</div>
+<div class="nameandfathername">
+    <p class="font-bold text-[#444F6F]">Patient Gender</p>
+<select class="max-[582px]:w-[250px] max-[582px]:h-[35px] border-[1px] text-[#444F6F]  border-gray-400  w-[450px] h-[40px] p-[5px] rounded-[50px] outline-none" name="specialty" id="">
+    
+    <option class="" selected value="specialty">Timing</option>
+    <option   value="specialty">9:00AM to 12:00AM</option>
+    <option   value="specialty">1:00PM to 4:00PM</option>
+    <option   value="specialty">4:00PM to 8:00PM</option>
+    <option   value="specialty">8:00PM to 12:00AM</option>
+
+  
+  </select>
+</div>
+
+
+</div>
+
+<div class="btnSubmit flex justify-center mt-[80px]">
+    <button class="bg-[#4d3589] w-[200px] h-[50px] font-bold text-white rounded-[15px]" type="submit">Book Appointment</button>
+</div>
+
+</div>
+
+
+
+ </div>
+</div>
+</body>
+<script src="Appointment.js"></script>
+</html>
