@@ -26,6 +26,7 @@
  
  nav ul li{
     list-style-type: none;
+
  }
  
  nav ul li a{
@@ -58,14 +59,21 @@
         flex-direction: column;
         text-align: center;
         /* background: #004274; */
-        background-color: #bebebe;
+        background-color:#4d3589;
         color: white;
         gap: 0;
         overflow: hidden;
+        z-index: 1;
+       
     }
+    nav ul li a{
+     color: #fff;
+     
+   }
     nav ul li{
         padding: 20px;
         padding-top: 0;
+      
     }
     .menu-icon{
         display: block;
