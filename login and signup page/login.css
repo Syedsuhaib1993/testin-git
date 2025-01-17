@@ -1,0 +1,101 @@
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url(https://img.freepik.com/free-photo/copy-space-stethoscope-pills_23-2148550954.jpg?t=st=1737136676~exp=1737140276~hmac=894e3ea20d3346da5688746181728a02977f4a6ebb8a00741f0b2f56f961f7b6&w=900);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.container {
+    background-color: white;
+    width: 450px;
+    height: fit-content;
+    border-radius: 18px;
+    padding: 18px;
+    box-shadow: 12px 12px rgba(4, 4, 14, 0.1);
+}
+
+h1 {
+    color: #4d3589;
+    text-align: center;
+}
+img{
+    width: 40px;
+    height: 40px;
+}
+img:hover {
+    cursor: pointer;}
+
+span {
+    color: #4d3589;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+input {
+    height: 30px;
+    border-radius: 5px;
+    width: 90%;
+    padding: 8px;
+    margin-top: 7px;
+    margin-bottom: 5px;
+    border: 2px solid #ccc;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+input:hover {
+    border-color: #4d3589; 
+}
+
+input:focus {
+    outline: none; /* Removes default outline */
+    border-color: #4d3589; /* Border color when focused */
+    box-shadow: 0 0 8px hwb(257 21% 46%); /* Adds a glow effect */
+}
+
+button {
+    border: none;
+    background-color: #4d3589;
+    color: white;
+    height: 40px;
+    width: 96%;
+    margin: 10px auto;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: large;
+}
+
+button:hover {
+    color: #4d3589;
+    border: 3px solid #4d3589;
+    background-color: white;
+    font-size: large;
+}
+
+p {
+    text-align: center;
+}
+
+.hidden {
+    display: none;}
+
+li {
+list-style: none;
+
+}
+
+
+/* #forget-password{
+    color: blue;
+    cursor: pointer;
+}
+
+#forget-password:hover{
+    color:black;
+    font-weight: bold;
+} */
